@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'ghm=!mpox9h9t^fcgj1c$v(#+^j7s-
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['test-04-01.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['thawing-mesa-70827.herokuapp.com','127.0.0.1']
 # For example: 
 # ALLOWED_HOSTS = ['fathomless-scrubland-30645.herokuapp.com','127.0.0.1']
 
